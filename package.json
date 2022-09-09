@@ -1,0 +1,23 @@
+{
+  "name": "rent-a-car",
+  "version": "1.0.0",
+  "description": "A small app using express for the backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianIfesiokwu/Rent-a-car.git"
+  },
+  "author": "Julian Ifesiokwu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulianIfesiokwu/Rent-a-car/issues"
+  },
+  "homepage": "https://github.com/JulianIfesiokwu/Rent-a-car#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
