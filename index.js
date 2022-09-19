@@ -36,7 +36,7 @@ app.get("/api/v1/query", (req, res) => {
   }
 
   if (limit) {
-    return (sortedCars = sortedCars.slice(0, Number(limit)));
+    sortedCars = sortedCars.slice(0, Number(limit));
   }
 
   res.status(200).json(sortedCars);
